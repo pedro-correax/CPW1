@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#header {
+    height: 100px;
+    background-color: #323278;
+}
+
+#main {
+    height: 300px;
+    display: flex;
+}
+
+#div-1 {
+    background-color: #0b7fab;
+    width: 50%;
+}
+
+#div-2 {
+    background-color: #89c4f4;
+    width: 50%;
+}
+
+#footer {
+    height: 200px;
+    background-color: #24252a;
+}
