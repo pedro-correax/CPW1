@@ -65,11 +65,24 @@ header{
     width: 100%;
 }
 
-#hero-text h1 {
+#slogan {
     text-align: center;
-    font-family: 'regular';
-    font-size: 62px;
+    position: relative;
 }
+
+#slogan span {
+    font-family: 'regular';
+    position: relative;
+    display: inline-block;
+    font-size: 62px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    animation: flip 3s infinite;
+    animation-timing-function: ease-out;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+
 
 #hero-text p {
     text-align: center;
